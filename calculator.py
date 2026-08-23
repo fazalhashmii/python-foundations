@@ -1,6 +1,13 @@
-#calculator using float
+#rounding off the output to the nearest integer
 
-#we cant use decimal values in int
+#method 1
 x = float(input("x= "))
 y = float(input("y= "))
-print (x+y)
+z = round(x+y)
+print (z)
+
+#method 2
+x = float(input("x= "))
+y = float(input("y= "))
+print (round(x+y))
+
