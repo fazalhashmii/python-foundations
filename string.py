@@ -1,10 +1,5 @@
-#writing two str funcs together in short
+#split breaks a string into a list of sub-strings
 
-#method 1
-name = input ("What's ya name? ")
-name = name.strip().title() 
-print (f"Hello, {name}")
-
-#method 2
 name = input ("What's ya name? ").strip().title() 
-print (f"Hello, {name}")
+first, last = name.split(" ") #this will break the whole name into first and last name on the basis of space
+print (f"Hello, {first}") #use first or last as a var based on the requirements
