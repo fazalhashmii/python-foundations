@@ -1,3 +1,5 @@
-#spe will separate the two params of the particular function
-name = input ("What's ya name? ")
-print ("Hello,", name, sep=" ") #blank space used in sep param separated the Hello and name with the space
+#printing double quotes
+#method 1 = using \ before the opening and closing quotes
+print ("Hello, \"Engineer\"")
+#method 2 = using single quotes for the print arguments and double quote for the output
+print ('Hello, "Engineer"')
