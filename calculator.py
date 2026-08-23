@@ -19,3 +19,8 @@ y = input ("y= ")
 
 z = int(x) + int(y) #if x=1, y=2 then the output will be 3 because int() converts the input strings "1" and "2" into numbers 1 and 2, so + performs addition and gives 3.
 print (z)
+
+#method 2 of writing program 3 using function nesting
+x = int(input("x= ")) #similar to maths where we solve the innermost parenthesis first and then the outermost one. Python will first execute the input func and then convert the str into int when the int func is executed
+y = int(input("y= "))
+print (x+y)
