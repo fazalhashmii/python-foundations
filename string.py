@@ -1,3 +1,4 @@
-#f-string allows to insert variables directly inside a string
+#strip removes extra spaces  from the beginning and end of a str
 name = input ("What's ya name? ")
-print (f"Hello, {name}") #use curly braces to insert var inside a string
+name = name.strip()
+print (f"Hello, {name}")
