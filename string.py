@@ -1,4 +1,5 @@
-#strip removes extra spaces  from the beginning and end of a str
+#capitalize makes the first char of the str uppercase and rest lower case
 name = input ("What's ya name? ")
 name = name.strip()
+name = name.capitalize()
 print (f"Hello, {name}")
