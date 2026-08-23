@@ -1,5 +1,10 @@
-#title mcapitalize the first letter of every word in a str
+#writing two str funcs together in short
+
+#method 1
 name = input ("What's ya name? ")
-name = name.strip()
-name = name.title() #capitalize works only on the first word of the str and not on every word
+name = name.strip().title() 
+print (f"Hello, {name}")
+
+#method 2
+name = input ("What's ya name? ").strip().title() 
 print (f"Hello, {name}")
