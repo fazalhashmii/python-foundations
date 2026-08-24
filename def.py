@@ -1,6 +1,10 @@
-#return - to send a value back from a function
+#WAP to print the square of x using scope and return function
 
-def add(x,y):
-    return x+y #The function calculates 2 + 3 and returns 5
-z = add (2,3) #stores that returned value in z as an output
-print(z)
+def main (): #intended line 4th and 5th belongs to main ()
+    x = int(input("x= "))
+    print ("x sqaured is", square(x)) #it will call the square () and pass the value of x to it
+
+def square (n): #n is a param of this new function. n has local inside the sqaure ()
+    return n*n #if x=2; 2*2=4. Also, we can use "return n**2" or "return pow (n,2)"
+
+main()
