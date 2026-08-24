@@ -1,12 +1,6 @@
-# scope - where a variable can be accessed or used in the code
+#return - to send a value back from a function
 
-
-#program 2 - no error
-
-name = "Fazal"
-def hello():
-    age = 24
-    print (name)
-    print (age)
-
-hello()
+def add(x,y):
+    return x+y #The function calculates 2 + 3 and returns 5
+z = add (2,3) #stores that returned value in z as an output
+print(z)
