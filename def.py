@@ -1,7 +1,12 @@
-#pass the default value if the programmer forgets to put the argument in the hello call function
+# scope - where a variable can be accessed or used in the code
 
-def hello (x="null"): #null is the default value
-    print("Hello,", x)
 
-name = input ("What's your name? ")
-hello () #no argument assigned
+#program 2 - no error
+
+name = "Fazal"
+def hello():
+    age = 24
+    print (name)
+    print (age)
+
+hello()
